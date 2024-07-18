@@ -1,11 +1,11 @@
 import './App.css'
-import LLMModel from './components/LLMModel'
+import GanttChart from './components/LLMModel'
 
 function App() {
   return (
-    <>
-      <LLMModel/>
-    </>
+    <div className="w-full max-w-[30000px] mx-auto px-4">
+      <GanttChart />
+    </div>
   )
 }
 
